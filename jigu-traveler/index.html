@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>지구여행가 🌍</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌍 지구여행가</h1>
+    <p>나만의 여행 루트를 만들어보세요 ✈️</p>
+  </header>
+
+  <main>
+    <section id="map">
+      <h2>도시를 선택하세요</h2>
+      <select id="citySelect">
+        <option value="">-- 선택 --</option>
+        <option value="tokyo">도쿄</option>
+        <option value="paris">파리</option>
+        <option value="seoul">서울</option>
+        <option value="newyork">뉴욕</option>
+      </select>
+      <button onclick="showPlan()">여행 일정 보기</button>
+    </section>
+
+    <section id="plan">
+      <h2>📅 추천 일정</h2>
+      <div id="planContent"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 지구여행가 | Made with ❤️ by pwy852</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
